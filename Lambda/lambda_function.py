@@ -11,7 +11,7 @@ import logging
 #set_api_key("bfb02dc484476a5721a19551f7c5f61e")
 
 client = ElevenLabs(
-  api_key="sk_117c26bc38f28288bed5c5d85308a73d97206f76b425412c" # Defaults to ELEVEN_API_KEY
+  api_key="" # Defaults to ELEVEN_API_KEY
 )
 
 
@@ -20,19 +20,19 @@ logger.setLevel(logging.INFO)  # You can set it to DEBUG, WARNING, etc.
 
 
 
-bucket_name = 'nipunakarunarathna'
-access_key = 'AKIAQ3EGVN6Q5NLYYBPX'
-secret_key = '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'
-news_api_key = 'a94c881aca1f47e58a4c1332c6145be2'
+bucket_name = ''
+access_key = ''
+secret_key = ''
+news_api_key = ''
 API_URL = "https://www.stack-inference.com/run_deployed_flow?flow_id=65b4b6cce1b68786a2c68699&org=8a8e6770-77a7-456d-a8d8-f2f2507b0a04"
 headers = {
-    'Authorization': 'Bearer 429d0f9b-5f6d-4d0d-b2f7-2b789a1bc2ad',
+    'Authorization': 'Bearer oken',
     'Content-Type': 'application/json'
 }
 db_config = {
-    'host': 'newsloop.cn64cgageebh.us-west-1.rds.amazonaws.com',
+    'host': '',
     'user': 'admin',
-    'password': 'IyeFY1jdK.S1ks',
+    'password': '',
     'database': 'newsloop'
 }
 

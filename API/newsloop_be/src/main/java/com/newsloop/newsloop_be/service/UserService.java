@@ -34,15 +34,15 @@ import software.amazon.awssdk.core.sync.RequestBody;
 @Service
 public class UserService {
 
-    private static final String DB_URL = "jdbc:mysql://newsloop.cn64cgageebh.us-west-1.rds.amazonaws.com:3306/newsloop";
+    private static final String DB_URL = "";
     private static final String DB_USERNAME = "admin";
-    private static final String DB_PASSWORD = "IyeFY1jdK.S1ks";
+    private static final String DB_PASSWORD = "";
 
 
 
     private static final String BUCKET_NAME = "nipunakarunarathna";
-    private static final String ACCESS_KEY_ID = "AKIAQ3EGVN6Q5NLYYBPX";
-    private static final String SECRET_ACCESS_KEY = "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";
+    private static final String ACCESS_KEY_ID = "";
+    private static final String SECRET_ACCESS_KEY = "";
     private static final Region REGION = Region.US_WEST_1; // Change to your bucket's region
    
 

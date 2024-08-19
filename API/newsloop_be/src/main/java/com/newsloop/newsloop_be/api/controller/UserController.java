@@ -56,14 +56,14 @@ import java.util.Map;
 @RestController
 public class UserController {
 
-    private static final String DB_URL = "jdbc:mysql://newsloop.cn64cgageebh.us-west-1.rds.amazonaws.com:3306/newsloop";
+    private static final String DB_URL = "jdbc:mysql:";
     private static final String DB_USERNAME = "admin";
-    private static final String DB_PASSWORD = "IyeFY1jdK.S1ks";
+    private static final String DB_PASSWORD = "";
 
 
-    private static final String BUCKET_NAME = "nipunakarunarathna";
-    private static final String ACCESS_KEY_ID = "AKIAQ3EGVN6Q5NLYYBPX";
-    private static final String SECRET_ACCESS_KEY = "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";
+    private static final String BUCKET_NAME = "";
+    private static final String ACCESS_KEY_ID = "";
+    private static final String SECRET_ACCESS_KEY = "";
     private static final Region REGION = Region.US_WEST_1;
 
 
@@ -508,7 +508,7 @@ public class UserController {
     public String generate_email(@RequestParam String email) {
          try {
             // AWS credentials
-            BasicAWSCredentials awsCreds = new BasicAWSCredentials("AKIAQ3EGVN6Q5NLYYBPX", "L63qSMzz0TXpMmw5MtasJUVH6mpBmBYMyN1fG2rJ");
+            BasicAWSCredentials awsCreds = new BasicAWSCredentials("", "");
 
             // Create AWS Lambda client
             AWSLambda awsLambda = AWSLambdaClientBuilder.standard()
