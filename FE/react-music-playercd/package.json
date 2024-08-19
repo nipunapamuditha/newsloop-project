@@ -1,0 +1,8 @@
+{
+  "name": "react-music-playercd",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react-music-playercd": "file:"
+  }
+}
